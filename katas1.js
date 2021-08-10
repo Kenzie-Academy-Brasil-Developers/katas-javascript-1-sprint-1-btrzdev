@@ -1,108 +1,109 @@
 
 function oneThroughTwenty() {
-    let resultado1= [];
+    let result1= [];
 
     for (let counter = 1; counter <= 20; counter++) {
-       resultado1.push(counter);
+       result1.push(counter);
     }
-    return resultado1;   
+    return result1;   
     };
     oneThroughTwenty();
 
 
-
-
-function evensToTwenty() {  
-   let num = 0; 
-      while(num <= 20) {
-      if ((num % 2 === 0)) {
-         console.log(num)       
-      }
-      num++;
-   }  
-   }; 
+   function evensToTwenty() {
+   let result2 = [];
+   
+   for (let counter = 1; counter <=20; counter++) {
+         if (counter % 2 === 0){
+         result2.push(counter);
+   }
+         
+   };
+   return result2; 
+   
+}
    evensToTwenty();
 
-
-
-
-
+   
 function oddsToTwenty() {
-   let num = 0; 
-      while(num <= 20) {
-      if ((num % 2 === 1)) {
-         console.log(num)       
-      }
-      num++;
-   }  
-   }; 
+   let result3 = [];
+   
+   for (let counter = 1; counter <=20; counter++) {
+         if (counter % 2 === 1){
+         result3.push(counter);
+   }
+            
+   };
+   return result3;
+}
    oddsToTwenty();
 
 
 
-
 function multiplesOfFive() {    
-    let num = 5; 
-    while(num <= 100) {
-      if ((num % 5 === 0)) {
-        console.log(num)       
-      }
-     num++;
-   }  
-  }; 
+   let result4 = [];
+   
+   for (let counter = 5; counter <=100; counter++) {
+         if (counter % 5 === 0){
+         result4.push(counter);
+   }
+          
+   };
+   return result4; 
+}
    multiplesOfFive();
 
 
 
-
-function squareNumbersBackwards() {
-   let num = 1; 
-   while(num <= 100) {
-      if (Number.isInteger(Math.sqrt(num)) == true){
-         console.log(num)       
-      }
-      num++;
+function squareNumbers() {
+   let result5 = [];
+   
+   for (let counter = 1; counter <=100; counter++) {
+         if (Number.isInteger(Math.sqrt(counter)) == true){
+         result5.push(counter);
    }
+          
    };
-   squareNumbersBackwards();
-
-
+   return result5;  
+}
+   squareNumbers();
 
 
 function countingBackwards() {
-   let resultado= [];  
+   let resultado6= [];  
    for (let counter = 20; counter >= 1; counter--) {
-      resultado.push(counter);
+      resultado6.push(counter);
    }
-   return resultado;  
+   return resultado6;  
    };
    countingBackwards();
 
 
 
-
 function evenNumbersBackwards() {
-   let num = 20; 
-   while(num >= 1) {
-     if ((num % 2 === 0)) {
-       console.log(num)       
-     }
-    num--;
-  }  
- }; 
+   let resultado7 = [];  
+   for (let counter = 20; counter >= 1; counter--) {
+      if(counter % 2 === 0){
+      resultado7.push(counter);
+   }
+   
+} 
+return resultado7;
+   };
    evenNumbersBackwards();
    
 
 
 
 function oddNumbersBackwards() {
-   let num = 20; 
-   while(num >= 1) {
-      if ((num % 2 === 1)) {
-         console.log(num)       
-      }
-      num--;
-   }  
+   let resultado8= [];  
+   for (let counter = 20; counter >= 1; counter--) {
+      if(counter % 2 ===1){
+      resultado8.push(counter);
+   }
+   
+} 
+return resultado8; 
    };
    oddNumbersBackwards(); 
 
@@ -110,13 +111,13 @@ function oddNumbersBackwards() {
 
 
 function multiplesOfFiveBackwards() {
-   let num = 100; 
-   while(num >= 5) {
-      if ((num % 5 === 0)) {
-         console.log(num)       
-      }
-      num--;
-   }  
+   let resultado9 = [];  
+   for (let counter = 100; counter >= 1; counter--) {
+      if(counter % 5 === 0){
+      resultado9.push(counter);
+   }
+}
+return resultado9;  
    };
    multiplesOfFiveBackwards();  
 
@@ -124,21 +125,16 @@ function multiplesOfFiveBackwards() {
 
  
 function squareNumbersBackwards() {
-   let num = 100; 
-   while(num >= 0) {
-      if (Number.isInteger(Math.sqrt(num)) == true){
-         console.log(num)       
-      }
-      num--;
+   let result10 = [];
+   
+   for (let counter = 100; counter >=1; counter--) {
+         if (Number.isInteger(Math.sqrt(counter)) == true){
+         result10.push(counter);
+   }           
    }
-   };
+   return result10; 
+};
    squareNumbersBackwards();
-
-
-
-
-
-
 
 
 
